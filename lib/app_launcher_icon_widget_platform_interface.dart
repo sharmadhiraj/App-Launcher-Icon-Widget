@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 import 'app_launcher_icon_widget_method_channel.dart';
@@ -17,7 +19,7 @@ abstract class AppLauncherIconWidgetPlatform extends PlatformInterface {
     _instance = instance;
   }
 
-  Future<String?> getPlatformVersion() {
-    throw UnimplementedError("platformVersion() has not been implemented.");
+  Future<Uint8List?> getAppLauncherIcon() {
+    throw UnimplementedError("getAppLauncherIcon() has not been implemented.");
   }
 }

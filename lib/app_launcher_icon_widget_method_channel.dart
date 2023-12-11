@@ -8,9 +8,7 @@ class MethodChannelAppLauncherIconWidget extends AppLauncherIconWidgetPlatform {
   final methodChannel = const MethodChannel("app_launcher_icon_widget");
 
   @override
-  Future<String?> getPlatformVersion() async {
-    final version =
-        await methodChannel.invokeMethod<String>("getPlatformVersion");
-    return version;
+  Future<Uint8List?> getAppLauncherIcon() async {
+    return await methodChannel.invokeMethod<Uint8List?>("getAppLauncherIcon");
   }
 }

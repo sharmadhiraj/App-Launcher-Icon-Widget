@@ -1,7 +1,9 @@
+import 'dart:typed_data';
+
 import 'app_launcher_icon_widget_platform_interface.dart';
 
 class AppLauncherIconWidget {
-  Future<String?> getPlatformVersion() {
-    return AppLauncherIconWidgetPlatform.instance.getPlatformVersion();
+  static Future<Uint8List?> getAppLauncherIcon() {
+    return AppLauncherIconWidgetPlatform.instance.getAppLauncherIcon();
   }
 }
