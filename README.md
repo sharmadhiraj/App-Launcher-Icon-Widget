@@ -10,19 +10,23 @@ Check [here](https://pub.dev/packages/app_launcher_icon_widget/install)
 
 ##### Using the widget
 
-`import 'package:app_launcher_icon_widget/app_launcher_icon_widget.dart';
+```
+import 'package:app_launcher_icon_widget/app_launcher_icon_widget.dart';
 
 // ...
 
 AppLauncherIcon(
 width: 64, //optional
 height: 64, //optional
-)`
+)
+```
 
 ##### Using the method
 
-`import 'package:app_launcher_icon_widget/app_launcher_icon_widget.dart';
+```
+import 'package:app_launcher_icon_widget/app_launcher_icon_widget.dart';
 
 // ...
 
-Uint8List? appIcon = await AppLauncherIconWidget.getAppLauncherIcon();`
+Uint8List? appIcon = await AppLauncherIconWidget.getAppLauncherIcon();
+```

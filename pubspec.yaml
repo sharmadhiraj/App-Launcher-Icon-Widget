@@ -1,6 +1,6 @@
 name: app_launcher_icon_widget
 description: "Flutter plugin providing a widget and data for displaying the app launcher icon."
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/sharmadhiraj/app-launcher-icon-widget
 
 environment:

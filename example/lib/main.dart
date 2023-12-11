@@ -1,4 +1,4 @@
-import 'package:app_launcher_icon_widget/app_launcher_icon.dart';
+import 'package:app_launcher_icon_widget/app_launcher_icon_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
